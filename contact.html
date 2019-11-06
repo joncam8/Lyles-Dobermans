@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width">
+    <meta name="keyword" content="Contact Lyles Dobermans, Contact"> 
+	<meta name="description" content="Contact Lyles Dobermans.">
+
+<title>Contact Lyles Dobermans</title>
+
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/contact.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+				
+			<header>
+       	    	<img src="images/headerBg1.jpg" alt="Header background image"> 
+                
+                <div id="followus">
+            <img src="images/followUs.png" alt="Follow us image">
+            </div>
+            </header>
+            
+            <div id="mobile_menu"><h1>Menu</h1></div>
+            
+			<!-- NAVIGATION BAR WITH DROPDOWN MENU -->	
+		<nav>
+			<div class="navlist">
+ 				<ul>
+  					<li><a href="index.html">Home</a></li>
+    				<li><a href="#">Dobermans</a>
+    					<ul>
+                    		<li><a href="pups.html">Puppies For Sale</a></li>
+                        	<li><a href="adults.html">Adults For Sale</a></li>
+                        	<li><a href="mkennel.html">Doberman Studs</a></li>
+                        	<li><a href="fkennel.html">Females</a></li>
+                            <li style="border-bottom:none;"><a href="ancestors.html">Ancestors</a></li>
+                    	</ul>	
+				  </li>
+                        
+    				<li><a href="#">Training</a> 
+                        <ul>
+                        	<li><a href="training.html">Training Videos</a></li>
+                            <li><a href="tgallery.html">Training Gallery</a></li>
+                        </ul>    
+                  </li>
+                        
+    				<li><a href="gallery.html">Gallery</a></li>
+    				<li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="fb"><a href="https://www.facebook.com/LylesDobermans" target="_blank">facebook</a></li>
+  				</ul>
+  			</div>
+		</nav>
+		<!--END NAVIGATION-->
+        
+        <!-- MOBILE NAVIGATION -->	
+		<nav id="nav_menu">
+			<div class="navlist">
+ 				<ul>
+  					<li><a href="index.html">Home</a></li>
+    				<li><a href="#">Dobermans</a>
+    					<ul>
+                    		<li><a href="pups.html">Puppies For Sale</a></li>
+                        	<li><a href="adults.html">Adults For Sale</a></li>
+                        	<li><a href="mkennel.html">Doberman Studs</a></li>
+                        	<li><a href="fkennel.html">Females</a></li>
+                            <li style="border-bottom:none;"><a href="ancestors.html">Ancestors</a></li>
+                    	</ul>	
+				  </li>
+                        
+    				<li><a href="#">Training</a> 
+                        <ul>
+                        	<li><a href="training.html">Training Videos</a></li>
+                            <li><a href="tgallery.html">Training Gallery</a></li>
+                        </ul>    
+                  </li>
+                        
+    				<li><a href="gallery.html">Gallery</a></li>
+    				<li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="fb"><a href="https://www.facebook.com/LylesDobermans" target="_blank">facebook</a></li>
+  				</ul>
+  			</div>
+		</nav>
+		<!--END MOBILE NAVIGATION-->
+
+		<div class="page_title">
+			<h2>Contact</h2>
+		</div>
+
+		<div class="body_content">
+
+            <section id="contactbody">
+                <div id="contact">
+                    <div class="info">
+                        <h3>Quincy Lyles</h3><br/>
+                        Phone: (708) 269-8217<br/>
+                        Email: qdlyles@gmail.com
+                    </div>
+                    
+                    <div class="form">
+                        <form action="form_process.php" method="post" name="contact_form" >
+                            <label>Name</label>
+                            <input type="text" name="name" required/>
+                            <label>Phone</label>
+                            <input type="text" name="phone" required/>
+                            <label>Email</label>
+                            <input type="email" name="email" required/>
+                            <label>Message</label>
+                            <textarea name="message"></textarea>
+                            <button type="submit" name="submit" value="submit">Submit</button>
+                        </form>
+                    </div>    
+                 </div>
+             </section> 
+ 
+		</div>   
+			<footer>
+				<div id="footer_container">
+                	<div id="copy">
+                		&copy; 2015 Rights Reserved to Lyles Dobermans | Developed by 
+                    	<a href="http://www.camcolordesigns.com" target="_blank">www.camcolordesigns.com</a>
+                	</div>
+                </div>
+			</footer>
+				<!--end footer-->
+	</div>
+
+<script src="http://code.jquery.com/jquery-1.5.min.js"></script>
+    
+<script>
+	$(document).ready(function() {
+    	$("#mobile_menu").click(function() {
+      	$("#nav_menu").slideToggle(800);							   
+		});
+  	});
+</script>    
+    
+</body>
+</html>

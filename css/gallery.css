@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bodyg p {
+	max-width:1000px;
+	margin:auto;
+	padding:20px 0px;
+	margin-left:35px;
+	}
+
+#gallery {
+	margin:auto;
+	padding:10px;
+	}
+
+.gallery {
+	max-width:960px;
+	margin:auto;
+	}
+
+.gallery a {
+	}
+
+
+.gallery table tr td{
+	
+	}
+
+.gallery img {
+	}
+	
+.gallery img:hover {
+	opacity:0.1;
+	}	
+
+.gallery tr {
+	display: -webkit-moz-flex;
+	display: -webkit-o-flex;
+	display:flex;
+	-webkit-moz-flex-wrap:wrap;
+	-webkit-o-flex-wrap:wrap;
+	flex-wrap:wrap;
+	}	
+	
+.gallery td {
+	padding:1px 3px;
+	width:150px;
+	}

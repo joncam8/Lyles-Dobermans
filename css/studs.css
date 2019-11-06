@@ -1,0 +1,59 @@
+.all_studs {
+	max-width:830px;
+	margin:auto;
+	background-color:rgba(0,0,0,.10);
+	padding:20px;
+	}
+
+.all_studs_container{
+	max-width:830px;
+	margin:auto;
+	position:relative;
+	}	
+	
+.all_studs_container h2 {
+	margin-bottom:12px;
+	}
+
+.all_studs_container p {
+	padding-top:20px;
+	}
+
+.all_studs_container tr {
+	display: -webkit-moz-flex;
+	display: -webkit-flex;
+	display:flex;
+	-webkit-moz-flex-wrap:wrap;
+	-webkit-moz-wrap:wrap;
+	flex-wrap:wrap;
+	
+	}
+
+.all_studs_container table td {
+	background-color:rgba(0,0,0,.10);
+	font-size:11px;
+	text-align:center;
+	padding:10px;
+	margin-left:5px;
+	margin-bottom:5px;
+	}
+
+.all_studs_container table img {
+	}
+
+#urban {
+	position:relative;
+	}
+
+.click_more {
+	position:absolute;
+	text-align:center;
+	margin:auto;
+	margin-top:-173px;
+	background-color:rgba(0,0,0,.9);
+	padding:10px;
+	font-weight:bold;
+	max-width:200px;
+	font-size:12px;
+	margin-right:10px;
+	}

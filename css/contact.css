@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contactbody {
+	width:100%;
+	max-width:1000px;
+	background-color:rgba(0,0,0,.10);
+	padding:40px 0px;
+	}
+
+#contact {
+	display: -webkit-moz-flex;
+	display: -webkit-flex;
+	display:flex;
+	max-width:800px;
+	width:100%;
+	margin:auto;
+	}
+
+.contactInfo {
+	}
+
+form {
+	width:320px;
+	margin:auto;
+	margin-bottom:20px;
+	}
+	
+form input {
+	margin:auto;
+	width:100%;
+	height:25px;
+	margin-top:5px;
+	margin-bottom:10px;
+	background-color:rgba(255,255,255,.1);
+	border:none;
+	font-size:14px;
+	padding:10px;
+	line-height:40px;
+	border-radius:2px;
+	color:#fff;
+	}
+	
+form textarea {
+	font-size:14px;
+	margin:auto;
+	width:300px;
+	height:100px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:5px;
+	color:#000;
+	border-radius:2px;
+	font-weight:bold;
+	padding-left:10px;
+	}
+	
+form button {
+	background-color:#292929;
+	color:#fff;
+	border-radius:20px;
+	font-size:16px;
+	width:100px;
+	padding:10px;
+	border:none;
+	cursor:pointer;
+	}	
+
+form button:hover {
+	background-color:#fff;
+	color:black;
+	font-weight:bold;
+	}
+
+.form {
+	max-width:300px;
+	margin-left:60px;
+	}
+
+.info {
+	margin-left:40px;
+	}
+	
+.info h3 {
+	margin:0;
+	padding:0;
+	}

@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+#videobody {
+	width:100%;
+	max-width:1000px;
+	
+	}
+	
+#videocenter {
+	position:relative;
+	padding-bottom:45%;
+	padding-top:60px;
+	overflow:hidden;
+	clear:both;
+	}
+
+#videocenter iframe, #videocenter object, #videocenter embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	}	
+	
+.video_thumbnails {
+	max-width:1000px;
+	
+	}
+
+.video_thumbnails div {
+	display:inline-block;
+	}
+
+#highlights .vid_title {
+	width:150px;
+	text-align:left;
+	font-size:12px;
+	font-family:Khmer UI;
+	}
+
+.vid_01 {
+	max-width: 980px;
+    width: 100%;
+	}
+
+.vid_contain {
+	nargin:0;
+	padding:0;
+	float:left;
+	margin-bottom:20px;
+	}
+
+.vid_contain h4 {
+	padding: 10px;
+	}
+
+.video_thumbnails img {
+	height:115px;
+	max-width:200px;
+	width:100%;
+	cursor:pointer;
+	}
+
+.video_thumbnails img:hover {
+	opacity:.2;
+	}
+	
+.sticky {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1;
+	}	

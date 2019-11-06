@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mof {
+	max-width:800px;
+	margin:auto;
+	}
+
+.mof_container {
+	max-width:800px;
+	display: -webkit-moz-flex;
+	display: -webkit-flex;
+	display:flex;
+	background-color:rgba(0,0,0,.10);
+	padding:20px;
+	margin-bottom:40px;
+	}
+
+.mof_img {
+	-webkit-moz-flex:3;
+	-webkit-flex:3;
+	flex:3;
+	max-width:250px;
+	width:100%;
+	padding-right:20px;
+	}
+
+.mof_content {
+	max-width:260px;
+	width:100%;
+	}
+
+.mof_content p {
+	font-size:14px;
+	padding-top:10px;
+	}
+
+.mof_video {
+	-webkit-moz-flex:4;
+	-webkit-flex:4;
+	flex:4;
+	max-width:530px;
+	width:100%;
+	height:auto;
+	
+	}
+
+.mof_video video {
+	max-width:530px;
+	width:100%;
+	}
+
+.mof_video p {
+	text-align:center;
+	}

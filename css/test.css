@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+.testbody:after {
+	content:'';
+	display:block;
+	clear:both;
+	}
+
+.testbody {
+	width:100%;
+	max-width:1000px;
+	}
+
+.testbody p {
+	max-width:500px;
+	margin:auto;
+	padding:20px 0px;
+	text-align:center;
+	}
+
+#reviews_container:after {
+	content:'';
+	display:block;
+	clear:both;
+	}
+
+#reviews_container {
+	max-width:1000px;
+	margin:auto;
+	}
+
+#reviews {
+    max-width: 48%;
+    margin: auto;
+    padding: 1% 0 1% 1%;
+    float: left;
+	}	
+
+#reviews2 {
+	max-width: 49%;
+    padding: 1% 0px 1% 1%;
+    float: left;
+	}	
+
+.cus_test {
+	padding:50px;
+	margin-bottom:10px;
+	}
+
+#reviews .cus_test:nth-child(odd) {
+	background-color:rgba(0,0,0,.7);
+	}
+
+#reviews2 .cus_test:nth-child(even) {
+	background-color:rgba(0,0,0,.7);
+	}
+
+#reviews .cus_test:nth-child(even) {
+	background-color:rgba(0,0,0,.4);
+	}
+
+#reviews2 .cus_test:nth-child(odd) {
+	background-color:rgba(0,0,0,.4);
+	}
+
+
+.qmark {
+	font-size:22px;
+	font-weight:bold;
+	font-family:Candara;
+	}
+
+blockquote {
+	font-style:italic;
+	font-size:14px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:100;
+	}
+
+.date {
+	font-size:10px;
+	}
+
+#reviews div {
+	}		
+	
+iframe {
+	}	
